@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background: url("netflix.jpg");
+}
+  
+h1.logo{
+    margin: 0;
+    font-family:bebas neue;
+    font-size: 5rem;
+    color: rgb(229, 9, 20);
+    text-shadow: 2px 2px 5px black;
+    margin-left: 1.5rem;
+}
+div.search{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Tektur', cursive;
+    font-size: 2rem;
+   text-shadow: 2px,2px,black;
+}
+button.search{
+    width: 10%;
+    height:2.5rem ;
+    margin-top: .2rem;
+    font-size: 1.2rem;
+    font-family:'poppins';
+    font-weight: 600;
+    background-color: rgb(219, 0, 0);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+button.search:hover{
+    background-color: #ffffff;
+    color: rgb(219, 0, 0);
+}
+div.search h2{
+    margin-bottom: 0;
+}
+input{
+    width: 30%;
+    height: 2rem;
+}
+div.card{
+    background-color:rgb(86, 77, 77,0.8);
+    color: #ffffff;
+    font-family: bebas neue;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+div.details{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-left: 4%;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+}
+
